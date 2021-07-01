@@ -1,0 +1,9 @@
+<h1>TASK LIST FORM</h1>
+<form action="">
+  TASK NAME: <input type="text">
+  <button>Salvar</button>
+</form>
+
+<hr>
+<h2>LISTAR DE TAREFAS</h2>
+<parcel *ngIf="!!config" [config]="config" [mountParcel]="mountRootParcel"></parcel>
